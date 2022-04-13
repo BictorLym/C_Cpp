@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\mycom0703\source\repos\[Algorithm_01]05주차 실습\[Algorithm_01]05주차 실습\main.cpp(83,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]05주차 실습\[Algorithm_01]05주차 실습\main.cpp(84,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]05주차 실습\[Algorithm_01]05주차 실습\main.cpp(109,19): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]05주차 실습\[Algorithm_01]05주차 실습\main.cpp(108,12): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]05주차 실습\[Algorithm_01]05주차 실습\main.cpp(121,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  [Algorithm_01]05주차 실습.vcxproj -> C:\Users\mycom0703\source\repos\[Algorithm_01]05주차 실습\Debug\[Algorithm_01]05주차 실습.exe
