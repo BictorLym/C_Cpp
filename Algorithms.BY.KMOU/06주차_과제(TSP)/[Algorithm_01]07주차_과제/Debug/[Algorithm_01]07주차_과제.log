@@ -1,0 +1,40 @@
+﻿  Edge.cpp
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(96,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(94,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(132,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(123,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(143,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(144,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(152,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(153,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(163,16): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(199,30): warning C4244: '=': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(161,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(218,10): warning C4244: '초기화 중': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(223,15): warning C4244: '=': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(227,26): warning C4244: '=': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\[Algorithm_01]07주차_과제\Edge.cpp(241,14): warning C4244: '초기화 중': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+  Tokenizer.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
+  [Algorithm_01]07주차_과제.vcxproj -> C:\Users\mycom0703\source\repos\[Algorithm_01]07주차_과제\Debug\[Algorithm_01]07주차_과제.exe
