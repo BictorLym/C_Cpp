@@ -13,15 +13,35 @@ void merge(int U[], int p, int q) {
 		U[p] = q;
 	}
 }
-bool equal(int p, int q) {
-	return p == q;
-}
 int find(int U[], int i) {
 	int j = i;
 	while (U[j] != j) {
 		j = U[j];
 	}
 	return j;
+}
+/////////////////////////////////////////////////////////////
+//íŠ¹ì • ì›ì†Œê°€ ì†í•œ ì§‘í•©ì„ ì°¾ê¸°
+int find_parent(int parent[], int x) {
+	if (parent[x] != x) {
+		return find_parent(parent, parent[x]);
+	}
+	return x;
+}
+// ë‘ ì›ì†Œê°€ ì†í•œ ì§‘í•©ì„ í•©ì¹˜ê¸°
+void union_parent(int parent[], int a, int b) {
+	a = find_parent(parent, a);
+	b = find_parent(parent, b);
+	if (a < b) {
+		parent[b] = a;
+	}
+	else {
+		parent[a] = b;
+	}
+}
+////////////////////////////////////////////////////////////////
+bool equal(int p, int q) {
+	return p == q;
 }
 bool compareWeight(const Edge& n1, const Edge& n2) {
 	return n1.get_wet() < n2.get_wet();
@@ -56,14 +76,14 @@ int get_index(string s) {
 	return atoi(s.c_str());
 }
 void kruskal(int n, int m, vector<Edge>& E, vector<Edge>& F) {
-	//nodeÀÇ °³¼ö
+	//nodeì˜ ê°œìˆ˜
 	n = cnt_node(E);
-	//edgeÀÇ °³¼ö(7)
+	//edgeì˜ ê°œìˆ˜(7)
 	m = E.size();
 	sort(E.begin(), E.end(), compareWeight);
-	//ÀÎµ¦½º
+	//ì¸ë±ìŠ¤
 	int i, j;
-	//Æ÷ÀÎÅÍ
+	//í¬ì¸í„°
 	int p, q;
 	//int U[6];
 	int* U = (int*)malloc(sizeof(int)*(n+1));
@@ -89,14 +109,14 @@ void kruskal(int n, int m, vector<Edge>& E, vector<Edge>& F) {
 void kruskal2(int n, int m, vector<Edge>& E, vector<Edge>& F)
 {
 	map<string, int> nodes = make_node_index(E);
-	//nodeÀÇ °³¼ö
+	//nodeì˜ ê°œìˆ˜
 	n = nodes.size();
-	//edgeÀÇ °³¼ö(7)
+	//edgeì˜ ê°œìˆ˜(7)
 	m = E.size();
 	sort(E.begin(), E.end(), compareWeight);
-	//ÀÎµ¦½º
+	//ì¸ë±ìŠ¤
 	int i, j;
-	//Æ÷ÀÎÅÍ
+	//í¬ì¸í„°
 	int p, q;
 	//int U[6];
 	int* U = (int*)malloc(sizeof(int) * (n + 1));
