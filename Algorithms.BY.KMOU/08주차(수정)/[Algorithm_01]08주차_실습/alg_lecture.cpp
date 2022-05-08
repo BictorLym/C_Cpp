@@ -21,24 +21,31 @@ int find(int U[], int i) {
 	return j;
 }
 /////////////////////////////////////////////////////////////
+void init(vector<int>& parent){
+    for(int i = 0; i < parent.size(); i++){
+        parent[i] = i;
+    }
+}
 //특정 원소가 속한 집합을 찾기
-int find_parent(int parent[], int x) {
-	if (parent[x] != x) {
-		return find_parent(parent, parent[x]);
-	}
-	return x;
+int getParent(vector<int> parent, int x){
+    if(parent[x] == x)  return x;
+    return parent[x] = getParent(parent, parent[x]);
 }
 // 두 원소가 속한 집합을 합치기
-void union_parent(int parent[], int a, int b) {
-	a = find_parent(parent, a);
-	b = find_parent(parent, b);
-	if (a < b) {
-		parent[b] = a;
-	}
-	else {
-		parent[a] = b;
-	}
+void parentUnion(vector<int>& parent, int a, int b){
+    a = getParent(parent, parent[a]);
+    b = getParent(parent, parent[b]);
+    if( a < b )     parent[b] = a;
+    else            parent[a] = b;
 }
+int parentFind(vector<int> parent, int a, int b){
+    a = getParent(parent, parent[a]);
+    b = getParent(parent, parent[b]);
+    if(a==b)    return 1;
+    else        return 0;
+}
+
+
 ////////////////////////////////////////////////////////////////
 bool equal(int p, int q) {
 	return p == q;
