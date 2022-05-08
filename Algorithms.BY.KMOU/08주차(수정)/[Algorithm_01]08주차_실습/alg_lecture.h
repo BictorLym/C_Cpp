@@ -14,4 +14,7 @@ int cnt_node(vector<Edge>& E);
 int get_index(string s);
 void kruskal(int n, int m, vector<Edge>& E, vector<Edge>& F);
 void kruskal2(int n, int m, vector<Edge>& E, vector<Edge>& F);
+
+int find_parent(int parent[], int x);
+void union_parent(int parent[], int a, int b);
 #endif
