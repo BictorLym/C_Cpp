@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[Algorithm_01]연습문제5장_18", "[Algorithm_01]연습문제5장_18\[Algorithm_01]연습문제5장_18.vcxproj", "{C9378493-3921-4C9F-928A-875E1709CF78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9378493-3921-4C9F-928A-875E1709CF78}.Debug|x64.ActiveCfg = Debug|x64
+		{C9378493-3921-4C9F-928A-875E1709CF78}.Debug|x64.Build.0 = Debug|x64
+		{C9378493-3921-4C9F-928A-875E1709CF78}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9378493-3921-4C9F-928A-875E1709CF78}.Debug|x86.Build.0 = Debug|Win32
+		{C9378493-3921-4C9F-928A-875E1709CF78}.Release|x64.ActiveCfg = Release|x64
+		{C9378493-3921-4C9F-928A-875E1709CF78}.Release|x64.Build.0 = Release|x64
+		{C9378493-3921-4C9F-928A-875E1709CF78}.Release|x86.ActiveCfg = Release|Win32
+		{C9378493-3921-4C9F-928A-875E1709CF78}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA05804A-0A8E-41EA-967B-FF4F9576D6F5}
+	EndGlobalSection
+EndGlobal
