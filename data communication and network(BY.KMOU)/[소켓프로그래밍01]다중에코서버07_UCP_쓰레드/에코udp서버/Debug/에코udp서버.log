@@ -1,0 +1,3 @@
+﻿  Program.cpp
+C:\Users\mycom0703\source\repos\[소켓프로그래밍01]다중에코서버07_UCP_쓰레드\에코udp서버\Program.cpp(179): warning C4172: 지역 변수 또는 임시: message의 주소를 반환하고 있습니다.
+  에코udp서버.vcxproj -> C:\Users\mycom0703\source\repos\[소켓프로그래밍01]다중에코서버07_UCP_쓰레드\Debug\에코udp서버.exe
